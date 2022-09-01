@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="nav">
+            <div>
+                <textarea type="text" cols="50" rows="6" placeholder="Poner aqui su texto" class="txt"></textarea>
+            <div>
+                <button onclick="btnEncriptar()"> Encriptar </button>
+                <button onclick="btnDesencriptar()"> Desencriptar </button></div></div>
+        </div>
+        <div class="main">
+            <div>
+                <textarea type="text" id="main" readonly name="solution" id="solution" cols="30" rows="20" class="txtArea">Aqui se mostrara el texto encriptado o desencriptado!</textarea>
+            </div>
+            <div>
+                <button onclick="copiar()" class="copy">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
